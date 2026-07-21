@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de musicas</title>
+
+     <style>
+  
+        body {
+            background-color: #0d0d13;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+       
+        form {
+            background: rgba(20, 20, 30, 0.85);
+            padding: 40px;
+            border-radius: 16px;
+            text-align: center;
+            border: 2px solid #00f2fe;
+            box-shadow: 0 0 20px rgba(0, 242, 254, 0.2),
+                        inset 0 0 15px rgba(0, 242, 254, 0.1);
+            backdrop-filter: blur(10px);
+            width: 280px;
+        }
+
+      
+        form a {
+            display: block;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 14px 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            transition: all 0.4s ease;
+        }
+
+       
+        form a:nth-of-type(1) {
+            color: #00f2fe;
+            border: 2px solid #00f2fe;
+            box-shadow: 0 0 10px rgba(0, 242, 254, 0.2);
+        }
+
+        form a:nth-of-type(1):hover {
+            background: #00f2fe;
+            color: #0d0d13;
+            box-shadow: 0 0 25px #00f2fe, 
+                        0 0 50px rgba(0, 242, 254, 0.5);
+        }
+
+       
+        form a:nth-of-type(2) {
+            color: #ff007f;
+            border: 2px solid #ff007f;
+            box-shadow: 0 0 10px rgba(ff, 0, 127, 0.2);
+        }
+
+        form a:nth-of-type(2):hover {
+            background: #ff007f;
+            color: #0d0d13;
+            box-shadow: 0 0 25px #ff007f, 
+                        0 0 50px rgba(255, 0, 127, 0.5);
+        }
+    </style>
+</head>
+<body>
+ 
+
+    <form>
+    <h1>GALERIA DE MUSICAS</h1>
+
+<br>
+
+      <a href="MUSICS/adicionar.php">Adicionar Músicas</a>
+    <br><br>
+      <a href="MUSICS/listarM.php">Listar musicas</a>
+    </form>
+
+</body>
+</html>
